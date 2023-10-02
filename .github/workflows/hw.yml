@@ -1,0 +1,9 @@
+name: Showing name
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  Running command:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Oleksandr Riabov"
